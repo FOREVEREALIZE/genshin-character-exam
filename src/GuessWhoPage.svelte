@@ -36,7 +36,7 @@
         <div class="text-lg text-zinc-400 mb-6">Select your character</div>
     {/if}
 
-    <div class="grid grid-cols-[repeat(16,minmax(0,1fr))] mx-24 gap-4">
+    <div class="grid grid-cols-9 xl:grid-cols-[repeat(16,minmax(0,1fr))] mx-24 gap-4">
         {#each DATA.filter(v => !v.id.startsWith("traveler_")) as char}
             <button
                     type="button"
