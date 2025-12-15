@@ -10,7 +10,8 @@ export enum Element {
     Dendro = "dendro",
     Hydro = "hydro",
     Pyro = "pyro",
-    Cryo = "cryo"
+    Cryo = "cryo",
+    Unaligned = "unaligned",
 }
 
 export enum Weapon {
@@ -56,6 +57,17 @@ export type Character = {
 }
 
 export const DATA: Character[] = [
+    {
+        "id": "aether",
+        "name": "Aether",
+        "quality": Quality.FiveStar,
+        "element": Element.Unaligned,
+        "weapon": Weapon.Sword,
+        "region": Region.OtherWorld,
+        "model": Model.MediumMale,
+        "release": "2020-09-28T00:00:00.000Z",
+        "version": "1.0"
+    },
     {
         "id": "aino",
         "name": "Aino",
@@ -343,6 +355,17 @@ export const DATA: Character[] = [
         "version": "3.0"
     },
     {
+        "id": "durin",
+        "name": "Durin",
+        "quality": Quality.FiveStar,
+        "element": Element.Pyro,
+        "weapon": Weapon.Sword,
+        "region": Region.Mondstadt,
+        "model": Model.MediumMale,
+        "release": "2025-12-03T00:00:00.000Z",
+        "version": "6.2"
+    },
+    {
         "id": "emilie",
         "name": "Emilie",
         "quality": Quality.FiveStar,
@@ -396,6 +419,17 @@ export const DATA: Character[] = [
         "model": Model.MediumFemale,
         "release": "2020-09-28T00:00:00.000Z",
         "version": "1.0"
+    },
+    {
+        "id": "flins",
+        "name": "Flins",
+        "quality": Quality.FiveStar,
+        "element": Element.Electro,
+        "weapon": Weapon.Polearm,
+        "region": Region.NodKrai,
+        "model": Model.TallMale,
+        "release": "2025-09-10T00:00:00.000Z",
+        "version": "6.0"
     },
     {
         "id": "freminet",
@@ -495,6 +529,17 @@ export const DATA: Character[] = [
         "model": Model.MediumFemale,
         "release": "2025-07-30T00:00:00.000Z",
         "version": "5.8"
+    },
+    {
+        "id": "jahoda",
+        "name": "Jahoda",
+        "quality": Quality.FourStar,
+        "element": Element.Anemo,
+        "weapon": Weapon.Bow,
+        "region": Region.NodKrai,
+        "model": Model.MediumFemale,
+        "release": "2025-12-03T00:00:00.000Z",
+        "version": "6.2"
     },
     {
         "id": "jean",
@@ -689,6 +734,17 @@ export const DATA: Character[] = [
         "version": "1.0"
     },
     {
+        "id": "lumine",
+        "name": "Lumine",
+        "quality": Quality.FiveStar,
+        "element": Element.Unaligned,
+        "weapon": Weapon.Sword,
+        "region": Region.OtherWorld,
+        "model": Model.MediumFemale,
+        "release": "2020-09-28T00:00:00.000Z",
+        "version": "1.0"
+    },
+    {
         "id": "lynette",
         "name": "Lynette",
         "quality": Quality.FourStar,
@@ -775,6 +831,17 @@ export const DATA: Character[] = [
         "model": Model.TallFemale,
         "release": "2023-12-20T00:00:00.000Z",
         "version": "4.3"
+    },
+    {
+        "id": "nefer",
+        "name": "Nefer",
+        "quality": Quality.FiveStar,
+        "element": Element.Dendro,
+        "weapon": Weapon.Catalyst,
+        "region": Region.NodKrai,
+        "model": Model.TallFemale,
+        "release": "2025-10-22T00:00:00.000Z",
+        "version": "6.1"
     },
     {
         "id": "neuvillette",
