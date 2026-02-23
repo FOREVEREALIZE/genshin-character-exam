@@ -289,6 +289,17 @@ export const DATA: Character[] = [
         "version": "3.0"
     },
     {
+        "id": "columbina",
+        "name": "Columbina",
+        "quality": Quality.FiveStar,
+        "element": Element.Hydro,
+        "weapon": Weapon.Catalyst,
+        "region": Region.NodKrai,
+        "model": Model.MediumFemale,
+        "release": "2025-01-14T00:00:00.000Z",
+        "version": "Luna IV"
+    },
+    {
         "id": "cyno",
         "name": "Cyno",
         "quality": Quality.FiveStar,
@@ -363,7 +374,7 @@ export const DATA: Character[] = [
         "region": Region.Mondstadt,
         "model": Model.MediumMale,
         "release": "2025-12-03T00:00:00.000Z",
-        "version": "6.2"
+        "version": "Luna III"
     },
     {
         "id": "emilie",
@@ -429,7 +440,7 @@ export const DATA: Character[] = [
         "region": Region.NodKrai,
         "model": Model.TallMale,
         "release": "2025-09-10T00:00:00.000Z",
-        "version": "6.0"
+        "version": "Luna I"
     },
     {
         "id": "freminet",
@@ -520,6 +531,17 @@ export const DATA: Character[] = [
         "version": "5.6"
     },
     {
+        "id": "illuga",
+        "name": "Illuga",
+        "quality": Quality.FourStar,
+        "element": Element.Geo,
+        "weapon": Weapon.Polearm,
+        "region": Region.NodKrai,
+        "model": Model.MediumMale,
+        "release": "2026-01-14T00:00:00.000Z",
+        "version": "Luna IV"
+    },
+    {
         "id": "ineffa",
         "name": "Ineffa",
         "quality": Quality.FiveStar,
@@ -539,7 +561,7 @@ export const DATA: Character[] = [
         "region": Region.NodKrai,
         "model": Model.MediumFemale,
         "release": "2025-12-03T00:00:00.000Z",
-        "version": "6.2"
+        "version": "Luna III"
     },
     {
         "id": "jean",
@@ -841,7 +863,7 @@ export const DATA: Character[] = [
         "region": Region.NodKrai,
         "model": Model.TallFemale,
         "release": "2025-10-22T00:00:00.000Z",
-        "version": "6.1"
+        "version": "Luna II"
     },
     {
         "id": "neuvillette",
@@ -1234,6 +1256,17 @@ export const DATA: Character[] = [
         "version": "5.5"
     },
     {
+        "id": "varka",
+        "name": "Varka",
+        "quality": Quality.FiveStar,
+        "element": Element.Anemo,
+        "weapon": Weapon.Claymore,
+        "region": Region.Mondstadt,
+        "model": Model.TallMale,
+        "release": "2026-02-25T00:00:00.000Z",
+        "version": "Luna V"
+    },
+    {
         "id": "venti",
         "name": "Venti",
         "quality": Quality.FiveStar,
@@ -1420,5 +1453,16 @@ export const DATA: Character[] = [
         "model": Model.TallMale,
         "release": "2020-12-01T00:00:00.000Z",
         "version": "1.1"
+    },
+    {
+        "id": "zibai",
+        "name": "Zibai",
+        "quality": Quality.FiveStar,
+        "element": Element.Geo,
+        "weapon": Weapon.Catalyst,
+        "region": Region.Liyue,
+        "model": Model.TallFemale,
+        "release": "2026-01-14T00:00:00.000Z",
+        "version": "Luna V"
     }
 ]
